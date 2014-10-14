@@ -19,6 +19,11 @@ function support($support, $url) {
       $class .= ' none';
     }
 
+
+
+
+    
+
     $html .= '<span title="' . trim($class) . '" class="tag ' . $browser . $class . '">' . $browser . ':' . $class . '</span> ';
   }
 
